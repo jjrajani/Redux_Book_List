@@ -9,7 +9,7 @@ Checkout this repo, install dependencies, then start the application as follows:
 
 ```
 > git clone https://github.com/jjrajani/Redux_Tinder_Clone.git
-> cd ReduxSimpleStarter
+> cd Redux_Tinder_Clone
 > npm install
 > npm start
 ```
