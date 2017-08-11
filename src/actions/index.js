@@ -5,5 +5,12 @@
 */
 
 export function selectBook(book) {
-  console.log('a book has been seleted', book.title);
+  /*
+    selectBook is an action creator and so must return an action,
+    An object with a type property.
+  */
+  return {
+    type: 'BOOK_SELECTED',
+    payload: book,
+  }
 }

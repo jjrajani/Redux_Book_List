@@ -1,5 +1,5 @@
 /* Book Reducer */
-export default function() {
+export default function(state, action) {
   return [
     { title: 'JavaScript: The Good Parts' },
     { title: 'Harry Potter' },

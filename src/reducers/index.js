@@ -14,12 +14,15 @@ for returning a list of users as well as
 a reducer for returning a currently selected user
 */
 
-import BooksReducer from './reducer_books';
-
+/* Reducers */
+import Books from './reducer_books';
+import ActiveBook from './reducer_active_book';
+/* -------- */
 import { combineReducers } from 'redux';
 
 const rootReducer = combineReducers({
-  books: BooksReducer,
+  books: Books,
+  activeBook: ActiveBook,
 });
 
 export default rootReducer;
