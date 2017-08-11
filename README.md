@@ -1,6 +1,6 @@
 # Redux Book List
 
-A Redux application showing a list of books and a currently selected book. Created for practice and to familiarze with Redux.
+A Redux application showing a list of books and a currently selected book. Created for practice and to familiarize with Redux.
 
 [Demo]()
 
