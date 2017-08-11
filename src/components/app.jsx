@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
 /* Containers */
-import BookList from '../containers/book-list';
-/* Components */
-import BookDetail from './book-detail';
+import {
+  BookList,
+  BookDetail
+} from '../containers';
 
 export default class App extends Component {
   render() {
