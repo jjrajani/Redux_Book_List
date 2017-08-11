@@ -1,3 +1,4 @@
+/* Book Reducer */
 export default function() {
   return [
     { title: 'JavaScript: The Good Parts' },
